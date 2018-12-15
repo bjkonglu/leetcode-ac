@@ -1,5 +1,6 @@
-package com.github.nadal.easy.array;
+package com.github.nadal.easy.dp;
 
+import com.github.nadal.easy.dp.MaxSubArray;
 import org.junit.Test;
 
 /**

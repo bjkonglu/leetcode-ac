@@ -1,4 +1,4 @@
-package com.github.nadal.easy.array;
+package com.github.nadal.easy.dp;
 
 /**
  * Author: lukong
