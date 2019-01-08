@@ -30,7 +30,7 @@ public class MaxSubArray {
         dpMaxSubArr(nums, length);
         return max;
     }
-    public int dpMaxSubArr(int[] nums, int n) {
+    private int dpMaxSubArr(int[] nums, int n) {
         if(n==1) {
             return nums[0];
         }
