@@ -40,7 +40,7 @@ public class RemoveDuplicates {
         ListNode curNode = head;
         while (curNode != null && curNode.next != null) {
             if (curNode.next.val == curNode.val) {
-                // 相当的话，用当前节点与后面所有节点比较，直到出现不相同的节点
+                // 相等的话，用当前节点与后面所有节点比较，直到出现不相同的节点
                 curNode.next = curNode.next.next;
             } else {
                 curNode = curNode.next;
