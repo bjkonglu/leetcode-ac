@@ -15,7 +15,7 @@ public class MaxSubArray {
      *   Output: 6
      * Explanation: [4,-1,2,1] has the largest sum = 6.
      *
-     * Solution:
+     * Main:
      *   针对这类问题可以考虑动态规划的方式去解决，首先要得到nums[n]的MaxSubArray, 即A[n], 可以将问题分解成求nums[n-1]的MaxSubArray， 即A[n-1],
      *   依次类推，然后可得到公式：A[n] = A[n-1] > 0 ？(nums[n] + A[n-1]) : nums[n]。最后判断一下Math.max(A[n], max), max刚开始可以设定为nums[0]
      *

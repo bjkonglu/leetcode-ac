@@ -15,7 +15,7 @@ public class RemoveDuplicates {
      * Your function should return length = 5, with the first five elements of nums being modified to 0, 1, 2, 3, and 4 respectively.
      * It doesn't matter what values are set beyond the returned length.
      *
-     * Solution:
+     * Main:
      * 设定两个指针，第一指针(j)指向第一个元素，第二指针(i)指向第二个元素；如果nums[i] != nums[j], 即后面的元素
      * 与前面的元素不同，则将nums[i]移动到nums[++j]，即移动到j后面；如果nums[i] == nums[j], 即后面的元素与前面的元素相同时，只将指针i往后
      * 移动，即i++, 依次类推直到i遍历到数组最后元素，返回++j便是不同元素的个数。

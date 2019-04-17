@@ -32,5 +32,6 @@ public class Solution {
 
     public static void main(String[] args) {
         staticFunc();
+//        System.out.println(4|7);
     }
 }
